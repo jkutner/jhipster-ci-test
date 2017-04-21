@@ -1,0 +1,16 @@
+{
+    "name": "Selenium CI Demo",
+    "description": "This is a Selenium test on CI demo.",
+    "environments": {
+      "test": {
+        "buildpacks": [
+            {
+                "url": "https://github.com/heroku/heroku-buildpack-google-chrome"
+            },
+            {
+                "url": "heroku/java"
+            }
+        ]
+      }
+    }
+}
