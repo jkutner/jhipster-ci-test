@@ -11,8 +11,8 @@
                 "url": "heroku/java"
             }
         ],
-        "env": {
-          "MAVEN_CUSTOM_OPTS": "-Dwebdriver.chrome.driver=/app/.apt/usr/bin/google-chrome-unstable"
+        "scripts": {
+          "test": "mvn -B -Dwebdriver.chrome.driver=/app/.apt/usr/bin/google-chrome-unstable test"
         }
       }
     }
