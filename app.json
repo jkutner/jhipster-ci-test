@@ -12,7 +12,7 @@
             }
         ],
         "env": {
-          "MAVEN_CUSTOM_OPTS": "-Dwebdriver.chrome.driver=/app/.apt/opt/google/chrome-unstable/google-chrome-unstable"
+          "MAVEN_CUSTOM_OPTS": "-Dwebdriver.chrome.driver=/app/.apt/usr/bin/google-chrome-unstable"
         }
       }
     }
