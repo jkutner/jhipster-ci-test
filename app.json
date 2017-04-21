@@ -10,7 +10,10 @@
             {
                 "url": "heroku/java"
             }
-        ]
+        ],
+        "env": {
+          "JAVA_TOOL_OPTIONS": "-Dwebdriver.chrome.driver=google-chrome-unstable"
+        }
       }
     }
 }
